@@ -1,0 +1,7 @@
+{
+  "uuid": "island-notch@alex",
+  "name": "Island",
+  "description": "A macOS-style Dynamic Island for GNOME. Replaces the top bar with a black notch pill that expands for music, notifications, charging, volume, timers, reminders and a calendar.",
+  "shell-version": ["49", "50"],
+  "version": 1
+}

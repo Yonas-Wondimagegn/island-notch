@@ -1,0 +1,168 @@
+/* base */
+
+.island {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* compact */
+.island-compact { padding: 0 12px; }
+.island-slot { width: 40px; spacing: 6px; }
+.island-time { font-size: 13px; font-weight: 700; color: #ffffff; }
+.island-music-icon { color: #ff375f; }
+.island-mini-timer { font-size: 12px; font-weight: 700; color: #ff9f0a; }
+.island-bars { spacing: 3px; height: 16px; }
+.island-bar { background-color: #ff375f; width: 3px; border-radius: 2px; }
+
+/* peek */
+.island-peek { padding: 0 20px; spacing: 12px; }
+.island-peek-icon { color: #ffffff; }
+.island-title { font-size: 12px; font-weight: 700; color: #ffffff; }
+.island-sub { font-size: 11px; color: rgba(255, 255, 255, 0.60); }
+.island-ell-wide { max-width: 220px; }
+.island-ell-m2 { max-width: 230px; }
+.island-ell-s { max-width: 80px; }
+.island-clip { max-width: 360px; }
+.island-track { background-color: rgba(255, 255, 255, 0.22); border-radius: 2px; }
+.island-fill { background-color: #30d158; border-radius: 2px; }
+.island-fill-w { background-color: #ffffff; }
+
+/* controls */
+.island-btn {
+    background-color: rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+    border-radius: 99px;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+}
+.island-btn:hover, .island-btn:focus { background-color: rgba(255, 255, 255, 0.20); }
+.island-btn.active { background-color: #0a84ff; }
+.island-btn-sm { width: 30px; height: 30px; }
+.island-btn-xs { width: 28px; height: 28px; }
+.island-btn-playx { width: 38px; height: 38px; background-color: #ffffff; color: #000000; }
+.island-btn-playx:hover, .island-btn-playx:focus { background-color: rgba(255, 255, 255, 0.85); }
+.island-btn-timer { background-color: #ff9f0a; color: #000000; }
+.island-btn-timer:hover, .island-btn-timer:focus { background-color: #ffb340; }
+.island-x { color: rgba(255, 255, 255, 0.5); padding: 3px; border-radius: 99px; }
+.island-x:hover { color: #ffffff; background-color: rgba(255, 255, 255, 0.14); }
+.island-chips { spacing: 6px; }
+.island-chip {
+    background-color: rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+    border-radius: 99px;
+    padding: 3px 11px;
+    font-size: 12px;
+}
+.island-chip:hover, .island-chip:focus { background-color: rgba(255, 255, 255, 0.20); }
+
+/* home */
+.island-cardroot { padding: 12px 18px 14px 18px; }
+.island-home2 { spacing: 5px; }
+.island-mrow2 { spacing: 12px; }
+.island-art2 {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 11px;
+    width: 52px;
+    height: 52px;
+    color: #ff375f;
+}
+/* lyrics */
+.island-lyr { height: 62px; }
+.island-lyr-dim { font-size: 11px; color: rgba(255, 255, 255, 0.38); max-width: 380px; }
+.island-lyr-cur { font-size: 14px; font-weight: 700; color: #ffffff; max-width: 380px; }
+.island-lyr-scroll { height: 62px; max-width: 390px; }
+.island-lyr-plain { font-size: 12px; color: rgba(255, 255, 255, 0.78); text-align: center; }
+.island-prog { spacing: 8px; }
+.island-time-s { font-size: 10px; color: rgba(255, 255, 255, 0.55); width: 34px; }
+.island-hit { height: 16px; }
+.island-ctl2 { spacing: 10px; }
+.island-icons { spacing: 8px; padding-top: 2px; }
+.island-sep { width: 1px; height: 16px; background-color: rgba(255, 255, 255, 0.16); margin: 0 4px; }
+.island-ico-red { color: #ff453a; }
+.island-ico-orange { color: #ff9f0a; }
+.island-ico-yellow { color: #ffd60a; }
+.island-ico-blue { color: #4da3ff; }
+.island-ico-purple { color: #bf5af2; }
+
+/* pages */
+.island-detail { spacing: 8px; }
+.island-detail-row { spacing: 16px; }
+.island-hdr { spacing: 8px; }
+.island-trow { spacing: 12px; }
+.island-timer { font-size: 32px; font-weight: 700; color: #ff9f0a; }
+.island-flist { spacing: 4px; }
+.island-frow { spacing: 6px; }
+.island-frow-in { spacing: 8px; padding: 2px 6px; }
+.island-fbtn { border-radius: 10px; padding: 3px 6px; }
+.island-fbtn:hover { background-color: rgba(255, 255, 255, 0.10); }
+.island-rlist { spacing: 2px; }
+.island-rrow { spacing: 8px; }
+
+.island-calleft2 { spacing: 6px; width: 110px; }
+.island-calright { spacing: 1px; }
+.island-cal-red { font-size: 11px; font-weight: 800; color: #ff453a; }
+.island-cal-daynum { font-size: 36px; font-weight: 300; color: #ffffff; }
+.island-event {
+    background-color: rgba(255, 69, 58, 0.18);
+    border-left: 3px solid #ff453a;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+.island-day {
+    width: 28px;
+    height: 21px;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 11px;
+    color: rgba(255, 255, 255, 0.92);
+}
+.island-dow { color: rgba(255, 255, 255, 0.45); font-size: 10px; }
+.island-wknd { color: rgba(255, 255, 255, 0.40); }
+.island-today { background-color: #ffffff; color: #000000; font-weight: 700; }
+
+.island-entry {
+    background-color: rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 12px;
+    font-size: 12px;
+    caret-color: #ffffff;
+    selection-background-color: #0a84ff;
+}
+.island-entry:focus { background-color: rgba(255, 255, 255, 0.16); }
+.island-entry .hint-text { color: rgba(255, 255, 255, 0.4); }
+
+/* strips */
+.island-strip { spacing: 12px; color: #ffffff; font-size: 13px; font-weight: 600; }
+.island-strip-group { spacing: 9px; padding: 0 6px; border-radius: 8px; }
+.island-strip-group:hover { background-color: rgba(255, 255, 255, 0.14); }
+.island-strip-icon { color: #ffffff; }
+.island-strip-btn { color: #ffffff; padding: 0 6px; border-radius: 8px; }
+.island-strip-btn:hover { background-color: rgba(255, 255, 255, 0.16); }
+.island-strip-app { font-weight: 800; }
+.island-strip-text { font-weight: 600; }
+.island-strip-date { padding: 0 6px; border-radius: 8px; }
+.island-strip-date:hover { background-color: rgba(255, 255, 255, 0.14); }
+
+/* music pill */
+.island-cart { width: 22px; height: 22px; border-radius: 6px; }
+.island-pilltrack { background-color: rgba(255, 255, 255, 0.18); border-radius: 2px; margin: 0 18px 3px 18px; }
+.island-pillfill { background-color: #ffffff; border-radius: 2px; }
+
+/* menu */
+.island-chip.active { background-color: #ffffff; color: #000000; }
+.island-chip-accent { background-color: #0a84ff; color: #ffffff; }
+.island-chip-accent:hover, .island-chip-accent:focus { background-color: #3a9bff; }
+.island-btn-xxs { width: 22px; height: 22px; }
+.island-pin-on { background-color: #ffd60a; color: #000000; }
+.island-pick { spacing: 4px; }
+.island-pick-day { font-size: 11px; font-weight: 700; width: 78px; text-align: center; }
+.island-pick-num { font-size: 13px; font-weight: 700; width: 20px; text-align: center; }
+
+/* peek center */
+.island-peek-inner { spacing: 12px; }
+.island-pcover { width: 40px; height: 40px; border-radius: 9px; background-color: rgba(255, 255, 255, 0.10); }
+.island-cart { background-color: rgba(255, 255, 255, 0.10); }
+.island-art2 { background-color: rgba(255, 255, 255, 0.10); }
